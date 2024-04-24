@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 1rem;
+    padding: 0;
+    
+}
+
+.header {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* Align KohliVerse to the left and nav to the right */
+    align-items: center;
+}
+
+.header-title {
+    position: relative;
+    top: 2rem;
+    right: 45rem;
+    display: inline; /* or display: inline-block; */
+    justify-content: center;
+    font-size: 2.5rem;
+    color: black;
+    text-shadow: #ffffff 0 0 12px,
+                     #A91079 0 0 25px,
+                     #A91079 0 0 35px,
+                     #A91079 0 0 45px;
+    
+}
+
+.ul {
+    display: flex;
+    list-style-type: none; /* Remove default list styles */
+    margin-right: 4rem; /* Add spacing to the right */
+}
+
+.ul .nav-item {
+    position: relative;
+    top: -2rem;
+    margin-right: 2rem;
+    height: 1.5rem;
+    border: 1px solid violet;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    background: white;
+    color: black;
+    box-shadow:1px 0 0 1px violet; 
+    
+}
+
+.ul .nav-item:hover{
+    background:rgb(234, 192, 234);
+    color: darkorchid;
+    
+
+}
+
+
+
+.ul a {
+    text-decoration: none;
+    color: black; /* Add color to the links */
+}
+
+.hidden {
+    display: none;
+}
+
+/* login form */
+
+/* Bordered form */
+/* The Modal (background) */
+.modal {
+    display: none; 
+    position:absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left:72rem;
+    top: 5rem;
+    overflow: auto; /* Enable scroll if needed */
+    height:18rem;
+    width: 20rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: rgba(234, 220, 238, 0.995);
+    
+    
+  }
+  
+
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 3rem;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+  
+  .login {
+    position: absolute; /* Change position to absolute */
+    right: 5rem; /* Adjust right spacing */
+    top: 0.9rem; /* Adjust top spacing */
+    margin-right: 2rem;
+    height: 2rem;
+    border: 1px solid violet;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    background: white;
+    color: black;
+    font-size: 1rem;
+    box-shadow:1px 0 0 1px violet; 
+    
+}
+
+.login:hover{
+    background:rgb(234, 192, 234);
+}
+
+.container{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 10rem;
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    line-height: 1rem;
+    
+    
+}
+
+.uname{
+    color: #A91079;
+    font-weight:600;
+    font-size: 1rem;
+}
+
+.input{
+    display: inline-flex;
+    margin-bottom:1rem;
+    border-radius: 0.3rem;
+}
+
+.pass{
+    color: #A91079;
+    font-weight:600;
+    font-size: 1rem;
+}
+
+.login-btn{
+    border: 2px solid black;
+    background: rgb(243, 202, 243);
+    border-radius: 0.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.check{
+    display: inline-flex;
+
+}
+
+.remember{
+    font-size: 0.8rem;
+    margin: 0.3rem 0.3rem;
+}
+
+.cancelbtn{
+    border: 2px solid black;
+    background: rgb(243, 202, 243);
+    border-radius: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.forget{
+    display: inline-flex;
+}
+
+.psw{
+    margin-right: 0.3rem;
+}
+
+.cricket-jersey h1{
+    text-align: center;
+    font-size: 3rem;
+    color: purple;
+    text-decoration:underline;
+    text-decoration-color: black;
+    text-shadow: 1px 1px 1px red;
+    margin-bottom: 2rem;
+}
+
+:root {
+    font-size: 16px; /* Base font size */
+  }
+  
+  .cricket {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 1.25rem; /* Adjust as needed */
+  }
+
+  .card {
+    width: calc(50% - 15rem); /* Two cards in each row with 1rem spacing between them */
+    border: 0.0625rem solid #ccc; /* 1px in rem */
+    border-radius: 0.5rem; /* 8px in rem */
+    overflow: hidden;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 4rem; /* Adjust as needed */
+    font-family: Arial, sans-serif;
+  }
+
+  .card img {
+    width: 100%; /* Ensures image spans the width of its container */
+    height: 25rem; /* Specify desired height */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  .card-content {
+    padding: 0.9375rem; /* 15px in rem */
+  }
+
+  .product-name {
+    font-size: 1.125rem; /* 18px in rem */
+    margin-bottom: 0.625rem; /* 10px in rem */
+  }
+
+  .price {
+    font-size: 1rem; /* 16px in rem */
+    color: #007bff; /* Change color as per your requirement */
+    margin-bottom: 0.625rem; /* 10px in rem */
+  }
+
+  .signature {
+    font-size: 0.875rem; /* 14px in rem */
+    color: #777;
+  }

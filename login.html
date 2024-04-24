@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virat Kohli Gallery</title>
+  <link rel="stylesheet" href="login.css">
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="main-container">
+        <div class="header">
+            <nav class="nav">
+                <span class="header-title">The Magic of Virat Kohli's World!</span>
+                <div class="menu-icon">
+                    <i class="fas fa-bars"></i>
+                  </div>
+
+                <ul class="ul">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About</a></li>
+                    <li class="nav-item"><a href="corner.html">Kohli's Corner</a></li>
+                    <li class="nav-item dropdown">
+                        <button class="dropbtn">Direct Links</button>
+                        <div class="dropdown-content">
+                            <a href="corner.html">kohli,s Corner</a>
+                            <a href="career.html">Career Milestones</a>
+                            <a href="matchwinning.html">Match-Winning Performances</a>
+                            <a href="trophy.html">Trophy Celebrations</a>
+                            <a href="record.html">Record Breaking Moments</a>
+                            <a href="training.html">Training and Practise</a>
+                            <a href="captain.html">Captaincy Moments</a>
+                            <a href="offthefield.html">Off-the-Field</a>
+                            <a href="family.html">Family Moments</a>
+                            <a href="personal.html">Personal Interests</a>
+                            <a href="charitable.html">Charitable Work</a>
+                            <a href="brand.html">Brand Endorsements</a>
+                            <a href="animal.html">Animal Lover</a>
+                            <a href="fans.html">Fans Interaction</a>
+                            <a href="meetings.html">Fan Meetings Sessions</a>
+                            <a href="autograph.html">Autographs Sessions</a>
+                            <a href="tributes.html">Fan Tributes</a>
+                            <a href="global.html">Global Fanbase</a>
+                            <a href="collection.html">Exclusive Collection</a>
+                            <a href="rare.html">Rare Photographs</a>
+                            <a href="private.html">Private Events</a>
+                            <a href="festivals.html">Enjoying Festivals</a>
+                            <a href="alley.html">Kohli's Accolades Alley</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <!-- login button -->
+                        <button onclick="document.getElementById('id01').style.display='block'" class="login">Login</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Contact Us</h1>
+    
+    
+    <!-- Modal -->
+    <div id="id01" class="modal">
+        
+        <!-- <span onclick="document.getElementById('id01').style.display='none'" class="close">&times;</span> -->
+        <!-- Modal Content -->
+        <form class="modal-content animate" action="#">
+            <div class="container">
+                <label for="uname" class="uname">Username</label>
+                <input type="text" placeholder="Enter Username" name="uname" class="input" required>
+    
+                <label for="psw" class="pass">Password</label>
+                <input type="password" placeholder="Enter Password" name="psw" class="input" required>
+                <div class="check">
+                    <input type="checkbox" name="remember" class="checkbox">
+                    <label class="remember">Remember Me</label>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+                <button type="reset"  class="cancelbtn">Cancel</button>
+                <div class="forget">
+                    <span class="psw">Forgot</span> 
+                    <a href="#">password?</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer-container">
+      <div class="footer-content">
+        <div class="column">
+          <div class="contact-info">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:contact@example.com">viratscorner@google.com</a></p>
+            <p>Phone: +1234567890</p>
+            <p>WhatsApp: +1234567890</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="social-media">
+            <h3>Social Media</h3>
+            <div class="facebook">
+              <a href="#">Facebook</a><i class="fa-brands fa-facebook"></i>
+            </div>
+          </div>
+          <div class="social-media">
+            <div class="twitter">
+              <a href="#">Twitter</a><i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+          <div class="social-media">
+            <div class="instagram">
+              <a href="#">Instagram</a><i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
